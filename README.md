@@ -4,7 +4,7 @@ A Jekyll/Liquid filter to calculate the read time of an article based on the for
 TL;DR: 275 WPM, add 12 seconds for first image, 11 for next, etc., down to a minimum of 3 seconds per image
 
 ## Installation
-Just drop it into your _plugins folder. Simple as that!
+Just drop read_time.rb into your _plugins folder. Simple as that!
 
 ## Usage
 ```
