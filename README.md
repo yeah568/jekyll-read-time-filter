@@ -10,4 +10,4 @@ Just drop read_time.rb into your _plugins folder. Simple as that!
 ```
 {{ page.content | read_time }}
 ```
-Note: this plugin requires img tags to be in the form of <img ... />. If you're using this on a post listing page, make sure to markdownify the post content first.
+Note: this plugin requires img tags to be in the form of `<img ... />`. If you're using this on a post listing page, make sure to markdownify the post content first.
