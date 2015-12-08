@@ -23,6 +23,7 @@ module ReadTimeFilter
         (strings.size - 2).times do |i|
             t = (img_time_max - i)
             image_time = t > img_time_min ? t : img_time_min
+            seconds = seconds + image_time
         end
 
         minutes = (seconds / 60).ceil
